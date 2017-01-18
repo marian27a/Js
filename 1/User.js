@@ -1,4 +1,4 @@
-var User = (function(){
+;var User = (function(){
 			var age = 10
 
 			return {

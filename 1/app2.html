@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		button{
+			border-radius: 5%;
+			background-color: #00FFFF;
+		}
+		body{
+			position: relative;
+		}
+		.main{
+			width: 400px;
+			height: 50px;
+			position: absolute;
+			top: 50px;
+			left: 30%;
+			background-color: #F0FFFF;
+			padding-top: 10px;
+			padding-left: 10px;
+		}
+		.list{
+			position: absolute;
+			top: 110px;
+			left: 30%;
+			width: 400px;
+			background-color: #FAF0E6;
+			padding-top: 10px;
+			padding-left: 10px;
+
+		}
+		li{
+			list-style:none;
+		}
+		li:nth-child(odd){
+			background-color: 
+		}
+		li:nth-child(odd){
+			background-color: 
+		}
+
+	</style>
+</head>
+<body>
+	<div class="main">
+		<input type="text" id = "name" placeholder="Введіть ім'я"> <button value = "Додати до списку">Додати до списку</button>
+	</div>
+
+	<div class="list">
+		<span>Список імен:</span>
+			<ul id = "listOfNames">
+				
+			</ul>
+
+	</div>
+	<script src = "People.js"></script>
+	<script> People.init()</script>
+	
+</body>
+</html>
